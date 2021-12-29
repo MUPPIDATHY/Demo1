@@ -1,0 +1,82 @@
+html,body{
+	
+	background: #fff;
+	height: 100%;
+}
+
+.nav-item a:hover,.fa{
+	color: #00AEF0;
+
+}
+.fa{
+	display: flex;
+    justify-content: center;
+
+}
+ p{
+	color: grey;
+    font-size: 13px;
+
+}
+.nav-item a{
+	color: #000;
+
+}
+#slider{
+	background: #000;
+}
+#blog img{
+	border: 1px solid;
+	border-radius: 25px;
+	top: 50px;
+    position: relative;
+
+}
+footer{
+	background: #fafafa;
+	text-align: center;
+	color: grey;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+#blog p{
+	color: #fff;
+}
+#blog{
+	background: url("https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80");
+	  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  color: #fff;
+}
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://img.freepik.com/free-vector/technology-banner-background-with-hexagonal-shapes-text-space_1017-22589.jpg?size=626&ext=jpg");
+  height: 80%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.home-demo .item {
+    background: #ff3f4d;
+}
+.home-demo h2 {
+    color: #FFF;
+    text-align: center;
+    padding: 5rem 0;
+    margin: 0;
+    font-style: italic;
+    font-weight: 300;
+}
